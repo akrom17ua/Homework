@@ -1,0 +1,6 @@
+Create a Student class with:
+
+Attributes: name, grade, and school.
+
+A method display_info() that prints all details. A simple message including all this information about name, grade and school
+Create multiple objects and display their info.
