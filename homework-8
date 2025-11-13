@@ -1,0 +1,9 @@
+# Create a class called Phone with attributes owner and balance
+# Add methods :
+      # def top_up(self, amount) - it should increase the balance so just add up to balance. Ex: self.balance += amount 
+      # def call(self, cost) - it should decrease the balance . Ex: self.balance -= cost
+      # def check_balance(self) - it should print the current balance with a good message
+
+# Hint! Also you need to make sure that if it does not have enough balance user should not be able to call so you need to add check inside call method. Say that if 
+your balance is $4 and cost is $5 then you need to print a good message that user cannot make a call as there is not enough money in the balance otherwise it should work
+and balance should be decreased
