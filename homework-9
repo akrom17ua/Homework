@@ -1,0 +1,12 @@
+# Create a class called ShoppingCart 
+# It should have an attribute -> items(It will be a dictionary data type -> {item : price}) So you need to do self.item = item 
+# You need to create 3 methods:
+        def add_item(self, item, price):
+        # It will add new item and price to the items dictionary
+
+        def remove_item(self, item):
+        # It should delete that item from the items dictionary so item is key here
+
+        def total(self):
+        # It should return the total price so just sum all the prices you have inside your items dictionary
+
