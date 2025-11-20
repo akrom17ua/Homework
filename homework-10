@@ -1,0 +1,18 @@
+# Create a class called Library and it should have an attribute called books it will be a dictionary data type
+# Create three methods called add_book(), borrow_book(), return_book()
+
+class Library:
+
+    def __init__(self, books):
+        # Continue with your own solution by removing this pass placeholder
+        pass
+
+    def add_book(self, title, is_available):
+    # You need to add title as a key to books dictionary with available being a value. Note that is_available is a boolean data type.
+
+    def borrow_book(self, title, is_available):
+    # In this method check by key title if this book available or not. If yes then change its status from True to False now it is not available as it will be borrowed
+
+    def return_book(self, title, is_available):
+    # Here change the status of this book using key title to True as now the book is returned and available again in the Library
+    
