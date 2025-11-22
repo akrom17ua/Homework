@@ -8,7 +8,7 @@ class Person:
         # Continue with your own solution code
 
     def add_steps(self, count):
-        # Here with this count parameter you need to add this count to steps_today attribute
+        # you need to add this count to steps_today attribute it is a number of steps you walked.
 
     def goal_reached(self, goal):
         # Here goal parameter is passed it is number of steps set as goal and you need to check goal with steps_todat if it is less then goal return False else return True
