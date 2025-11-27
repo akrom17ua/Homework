@@ -1,0 +1,18 @@
+# Create a class called Car and it should have 2 attributes brand and fuel
+# Create 3 methods called drive(), refuel(), status()
+
+
+class Car:
+  pass
+  # Continue with your own solution
+
+
+  def drive(self):
+      # decrease fuel by 10 so this mean just substract 10 from fuel attribute
+
+  def refuel(self):
+      # add 20 to fuel attribute
+
+
+  def status(self):
+      # show remaining fuel so just print with a good message like -> Remained fuel is
