@@ -1,0 +1,19 @@
+Create a class called Student.
+
+The class should have three attributes:
+
+name
+age
+grade (example: "8th", "9th")
+
+Add three methods:
+
+display_info(self)
+→ prints the student's full information in a friendly sentence
+Example: "Name: Ali, Age: 14, Grade: 8th"
+
+promote(self)
+→ increases the student’s grade by one level (simple string change like "8th" → "9th").
+
+change_name(new_name)
+→ updates the student's name -> self.name = new_name
