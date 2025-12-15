@@ -1,0 +1,14 @@
+Create a class Student with:
+instance attributes: name, score
+class variable: school_name -> you can give whatever name you want. Ex: school_name = "New York School" and make sure class variable comes just below class definition
+instance method show_info(self) -> just print the student name with score
+class method show_school(cls) -> mark it as @classmethod and just print school_name . Ex: print(Student.school_name)
+static method is_passing(score) -> mark it as @staticmethod and check if the score is passing. Minimum score to pass is 50 less then this values mean fail
+
+class Student:
+  school_name = #assign value here
+
+  def __init__(self, name, score):
+      pass
+
+
