@@ -1,0 +1,7 @@
+Create a class Player with:
+instance attributes: username, level
+class variable: max_level = 100
+instance method def level_up(self) - > Here just level it up by 1 (Add 1 and that is it)
+class method show_max_level(cls) - > You just need to print class variable which holds a maximum level
+static method is_valid_username(name) (length ≥ 3) -> return True if length of name is more than 3 else return False
+Also do not forget to create an object from Player class and try all the methods to see how it works
