@@ -1,0 +1,6 @@
+Create a class Movie with:
+instance attributes: title, rating
+class variable: min_rating = 5
+instance method show_rating(self) - > Just show the rating with a good message
+class method change_min_rating(value) -> update the min_rating value
+static method is_good_movie(rating) -> Check if the movie rating is over 7 if yes print "good movie" else print "not recommend low rating"
