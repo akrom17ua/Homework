@@ -1,0 +1,10 @@
+Create a class Phone with:
+instance attributes: model, battery
+class variable: max_battery
+instance method charge(amount) -> Charge phone by amount
+instance method use_phone(amount) -> You need to decrease the battery level by amount
+instance method show_battery_level() -> Print battery level in percentage 
+static method is_low_battery(level) -> When your battery level is low than 20 you should give a message like "Turn on low power mode" (level < 20)
+
+
+
