@@ -4,7 +4,11 @@ The class should have three attributes:
 
 name
 age
-grade (example: "8th", "9th")
+grade
+
+def __init__(self, name, age, grade):
+   self.name = name
+   #continue
 
 Add three methods:
 
@@ -12,8 +16,8 @@ display_info(self)
 → prints the student's full information in a friendly sentence
 Example: "Name: Ali, Age: 14, Grade: 8th"
 
-promote(self)
-→ increases the student’s grade by one level (simple string change like "8th" → "9th").
+promote(self, new_grade)
+→ increases the student’s grade by one level and print student's new grade
 
 change_name(new_name)
-→ updates the student's name -> self.name = new_name
+→ updates the student's name -> self.name = new_name and print it
