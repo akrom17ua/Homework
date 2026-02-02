@@ -1,0 +1,27 @@
+Create a Movie class with the following features:
+Class Variable:
+
+total_movies - tracks the total number of movie objects created
+all_genres - a list containing valid movie genres (Action, Comedy, Drama, Horror, Sci-Fi)
+
+Instance Attributes:
+
+title
+director
+rating (out of 10)
+genre
+
+Instance Methods:
+
+update_rating(new_rating) - updates the movie's rating
+display_info() - displays all movie details(title, director, rating and genre)
+
+Class Methods:
+
+get_total_movies() - returns the total number of movies created
+from_string(movie_string) - creates a Movie object from a formatted string like "Title|Director|8.5|Drama"
+
+Static Methods:
+
+is_valid_rating(rating) - checks if a rating is between 0 and 10
+is_valid_genre(genre) - checks if the genre is in the allowed genres list
