@@ -1,0 +1,28 @@
+Create a class called Contact with these attributes:
+name, email, phone, country
+
+    def __init__(self, name, ...):
+        self.name = name
+        # continue
+
+
+Instance Methods
+def display_contact(self)
+
+Displays all contact information in a formatted way
+Shows name, phone with country code, email, and country
+
+def update_phone(self, new_phone)
+
+Updates the phone number
+
+def update_email(self, new_email)
+
+Updates the email address
+Should validate the new email before updating
+Checks if email contains "@" and "."
+Returns True if valid, False otherwise 
+update email only after checking if it contains "@" and "." and endswith "gmail.com"
+
+
+
