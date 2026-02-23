@@ -1,0 +1,22 @@
+Create a class called Customer
+Create a dictionary called store = {"banana": 10} -> add more products with quantity by yourself
+Each customer must have these attributes :
+
+name → string
+balance → float
+cart → list 
+
+Methods:
+A method to add a product to the cart (only if available). -> def add_product(self, product_name)
+
+A method to calculate the total cost of the cart. - > def total(self): 
+
+A method to purchase products: -> def buy(self, price, quantity):
+
+Check if customer has enough balance.
+
+Deduct balance.
+
+Reduce product quantity from store dictionary
+
+Update product availability(count of the product inside store)
