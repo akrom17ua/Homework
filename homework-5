@@ -1,6 +1,7 @@
-Ask user to enter a password.
-Ask user to re-enter the password.
-Handle empty input using try/except (raise ValueError with "Password cannot be empty").
-If passwords don't match → print "Passwords do not match. Please try again."
+Create a function called authentication
+Ask user to enter a password1. ("Enter password: ")
+Ask user to re-enter the password2. ("Confirm password: ")
+if passwords are empty -> raise ValueError("Password cannot be empty")
+If passwords don't match if they are not equal → print "Passwords do not match. Please try again."
 If password length < 8 → print "Password too short. Minimum 8 characters required."
 Else → print "Password set successfully!"
