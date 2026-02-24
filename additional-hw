@@ -1,0 +1,18 @@
+Create a list called products with at least 6 product names.
+Create a tuple called discounted_products with 2–3 products that have discounts.
+Create an empty list called sold_products.
+
+Create a function:
+def buy_product(product_name, quantity=None):
+
+Inside the function:
+Clean the product name using .strip() and convert it to lowercase.
+Check if the product exists in the products list.
+
+Rules:
+If the product is NOT in the list: Print "Product not found."
+If the product exists:
+  If the product is in discounted_products: Print "Discount applied!"
+  Add the product to sold_products
+  Remove it from products
+  Print "Purchase successful."
