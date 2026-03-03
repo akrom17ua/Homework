@@ -1,0 +1,25 @@
+Create a class FitnessUser
+
+Attributes:
+
+name (string)
+age (int)
+steps (int)
+water_intake (float)
+workouts (list)
+
+def __init__(self, name, age, steps, water_intake, workouts):
+    self.name = name
+    #continue
+
+Methods:
+
+def add_steps(self, amount) -> make sure you add and update self.steps attribute here and print it
+
+def drink_water(self, liters) -> this method should add water in liters(number) and update self.water_intake and print it
+
+def add_workout(self, workout_name) -> this method should add workout to self.workouts list and print final list
+
+def is_active(self) -> check and return "active" if steps > 10000 else return "goal not reached yet"
+
+def get_status(self) -> return all information in a good format including name, age, steps, water_intake -> Ex: name : John, age: 20, steps: 10000, water_intake " 4.5
