@@ -1,0 +1,22 @@
+Create a new file called main.html.
+At the top of the page, add a navbar.
+The main header of the page should be: Flower Shop
+Use an <h1> tag for this title.
+On the page, create 8 cards (similar to the cards you made in the portfolio website).
+Each card must contain:
+Flower picture (<img>)
+Flower name (<h4>)
+Flower price (<h4>)
+Flower description (<p>)
+Requirements for each card:
+Upload a different flower image
+Write the flower name
+Write the price
+Add a short description of the flower
+Make sure all 8 cards are visible on the page and nicely arranged in rows.
+Example of one card structure:
+
+Image of flower
+Rose
+$10
+A beautiful red flower often used for gifts.
