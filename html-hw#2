@@ -1,3 +1,31 @@
-Create a separate page for each flower like flower1.html, flower2.html and etc.. depending on how many cards you have in main.html
-There should be a navbar, bigger picture of the flower image, header with flower name, paragraph with flower type and price 
-(Hint! you can copy everything from project1.html we made together and you need to change header, image, paragraphs to make it align with your FlowerShop webpage)
+For every flower card in main.html, create a separate HTML page.
+
+Example:
+
+flower1.html
+flower2.html
+flower3.html
+
+Create as many pages as the number of flower cards you have.
+
+Add a Navbar
+Each flower page should have a navbar at the top (same style as your main page).
+Add a Bigger Flower Image
+On the flower page, show a bigger image of the flower
+
+Your page should contain:
+
+🌸 Flower Name (use <h1> or <h2>)
+🖼 Flower Image
+📝 Paragraph with:
+Flower type
+Flower price
+
+Hint 💡
+
+You can copy the structure from project1.html that we created together.
+Then change:
+the header
+the image
+the paragraph text
+so that it matches your Flower Shop website.
