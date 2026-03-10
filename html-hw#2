@@ -1,0 +1,3 @@
+Create a separate page for each flower like flower1.html, flower2.html and etc.. depending on how many cards you have in main.html
+There should be a navbar, bigger picture of the flower image, header with flower name, paragraph with flower type and price 
+(Hint! you can copy everything from project1.html we made together and you need to change header, image, paragraphs to make it align with your FlowerShop webpage)
