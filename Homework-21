@@ -1,0 +1,38 @@
+Create a class Order
+
+Attributes:
+
+customer_name (string)
+items (list)
+prices (list)
+total_price (float)
+is_paid (boolean)
+
+def __init__(self, customer_name, items, prices, total_price, is_paid):
+    self.customer_name = customer_name
+    # continue
+
+Methods:
+
+def add_item(self, item_name, price)
+
+This method should add the item_name to the items list and add the price to the prices list. Print the updated list of items.
+
+def calculate_total(self)
+
+This method should calculate the total price of all items using the prices list and update the self.total_price attribute. Print the total price.
+
+def pay_order(self)
+
+This method should change self.is_paid to True and print "Order has been paid".
+
+def remove_item(self, item_name)
+
+This method should remove an item from the items list (and its corresponding price from the prices list if it exists) and print the updated items list.
+
+def get_order_summary(self)
+
+Return all order information in a clear format including customer_name, items, total_price, and payment status.
+
+Example format:
+customer: Alex, items: ['Burger', 'Pizza'], total_price: 25.5, paid: False
