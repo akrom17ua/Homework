@@ -1,0 +1,21 @@
+Create  a separate folder called restaurant web and inside it create main.html
+
+Create 8 cards with different menu of meals with names , prices and images
+Add a Navbar
+
+Your page should contain:
+
+Meal Name (use <h1> or <h2>)
+Meal Image
+Paragraph with:
+Meal type ex: dessert
+Meal price
+
+Hint 💡
+
+You can copy the structure from other projects that we created together.
+Then change:
+the header
+the image
+the paragraph text
+So it shold be a restaurant webpage
