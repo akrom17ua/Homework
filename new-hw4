@@ -1,0 +1,31 @@
+Create a class Delivery
+
+Attributes:
+
+order_id (int)
+address (string)
+distance (float)
+price (float)
+is_delivered (boolean)
+
+def __init__(self, order_id, address, distance, price, is_delivered):
+    self.order_id = order_id
+    # continue
+
+Methods:
+
+def calculate_price(self)
+
+Price = distance * 2, update and print price
+
+def mark_delivered(self)
+
+Set is_delivered to True and print status
+
+def update_address(self, new_address)
+
+Update address and print it
+
+def get_status(self)
+
+Return delivery information like total price, address and status 
