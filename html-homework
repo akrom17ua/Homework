@@ -22,12 +22,12 @@ A beautiful red flower often used for gifts.
 
 You can use the whole code from carshop web page just update specific tags sample : 
 <div class="col-md-3">
-    			<div class="card" style="width: 18rem;">
-				  <img src="images/flower.jpg" class="card-img-top" alt="...">
-				  <div class="card-body">
-				    <h5 class="card-title">Red roses</h5>
-				    <p class="card-text">You can buy this beatiful roses from $50</p>
-				    <a href="https://danayasflowers.com/products/red-roses-bouquet-with-ferrero-rocher-chocolates?srsltid=AfmBOopjy0yE5oaX358WPJxMbltZEEF81tPHMtkyJawMAGJAIL55_Yv3" class="btn btn-primary">Rent now</a>
-				  </div>
-				</div>
+    <div class="card" style="width: 18rem;">
+		<img src="images/flower.jpg" class="card-img-top" alt="...">
+			<div class="card-body">
+				<h5 class="card-title">Red roses</h5>
+				<p class="card-text">You can buy this beatiful roses from $50</p>
+				<a href="https://danayasflowers.com/products/red-roses-bouquet-with-ferrero-rocher-chocolates?srsltid=AfmBOopjy0yE5oaX358WPJxMbltZEEF81tPHMtkyJawMAGJAIL55_Yv3" class="btn btn-primary">Rent now</a>
 			</div>
+	</div>
+</div>
